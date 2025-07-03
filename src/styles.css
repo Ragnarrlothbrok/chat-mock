@@ -1,0 +1,100 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.chat-bg {
+  background-color: #f1f3f6;
+}
+
+.h-full {
+  height: 100vh;
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* Chat List styling */
+
+.heading-2 {
+  color: #212121;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.input-box {
+  border-width: 0px;
+  border-bottom: 1px solid black;
+  padding: 8px 12px;
+  margin: 12px 0;
+  outline: none;
+  width: 100%;
+}
+
+.chat-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background-color: #fff;
+  border-bottom: "1px solid #f0f0f0";
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 12px 8px;
+}
+
+.chat-item-selected {
+  background-color: #f1f3f6;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: 600;
+  color: #000;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.orderId {
+  font-size: 13px;
+  color: #000;
+  margin-top: 4px;
+}
+
+.lastMessage {
+  font-size: 12px;
+  color: #878787;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  margin-top: 4px;
+}
